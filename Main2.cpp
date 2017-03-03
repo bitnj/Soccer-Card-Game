@@ -44,7 +44,7 @@ int main()
 		exit(1);
 	}
 	// connect
-	if (mysql_real_connect(dbCon, "172.17.179.19", "devtest.full", "CAPtain116", "devtest", 0, NULL, 0) == NULL) 
+	if (mysql_real_connect(dbCon, "xxx.xx.xxx.xx", "devtest.full", "password", "devtest", 0, NULL, 0) == NULL) 
     {
         exit(1);
     }
